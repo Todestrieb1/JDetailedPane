@@ -25,10 +25,12 @@ public class JDetailedPaneTest extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("JDetailedPane test");
+        setMinimumSize(new java.awt.Dimension(210, 180));
+        setPreferredSize(new java.awt.Dimension(220, 200));
         setResizable(false);
         getContentPane().setLayout(new javax.swing.BoxLayout(getContentPane(), javax.swing.BoxLayout.LINE_AXIS));
 
-        jPanel1.setLayout(new java.awt.GridLayout(4, 0));
+        jPanel1.setLayout(new java.awt.GridLayout(4, 0, 2, 2));
 
         jButton1.setText("Error JDetailedPane");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
