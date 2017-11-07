@@ -20,6 +20,14 @@ import javax.swing.border.EmptyBorder;
  */
 public class JDetailedPane {
 
+    /**
+     * Shows a detailed error dialog.
+     *
+     * @param title Dialog title
+     * @param message Text or message shown in the dialog
+     * @param details Text or message shown when "Show details" check box is
+     * checked
+     */
     public static void showErrorDialog(String title, String message, String details) {
         final JTextPane textPane = new JTextPane();
         textPane.setContentType("text/html");
@@ -76,6 +84,14 @@ public class JDetailedPane {
         dialog.setVisible(true);
     }
 
+    /**
+     * Shows a detailed information dialog.
+     *
+     * @param title Dialog title
+     * @param message Text or message shown in the dialog
+     * @param details Text or message shown when "Show details" check box is
+     * checked
+     */
     public static void showInformationDialog(String title, String message, String details) {
         final JTextPane textPane = new JTextPane();
         textPane.setContentType("text/html");
@@ -132,6 +148,14 @@ public class JDetailedPane {
         dialog.setVisible(true);
     }
 
+    /**
+     * Shows a detailed question dialog.
+     *
+     * @param title Dialog title
+     * @param message Text or message shown in the dialog
+     * @param details Text or message shown when "Show details" check box is
+     * checked
+     */
     public static void showQuestionDialog(String title, String message, String details) {
         final JTextPane textPane = new JTextPane();
         textPane.setContentType("text/html");
@@ -188,6 +212,14 @@ public class JDetailedPane {
         dialog.setVisible(true);
     }
 
+    /**
+     * Shows a detailed warning dialog.
+     *
+     * @param title Dialog title
+     * @param message Text or message shown in the dialog
+     * @param details Text or message shown when "Show details" check box is
+     * checked
+     */
     public static void showWarningDialog(String title, String message, String details) {
         final JTextPane textPane = new JTextPane();
         textPane.setContentType("text/html");
