@@ -1,5 +1,6 @@
 package com.todestrieb.jdetailedpane;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
@@ -11,7 +12,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.JTextPane;
+import javax.swing.JTextArea;
 import javax.swing.border.EmptyBorder;
 
 /**
@@ -19,6 +20,8 @@ import javax.swing.border.EmptyBorder;
  * @author Todestrieb
  */
 public class JDetailedPane {
+
+    private final static String LINEBREAK = System.getProperty("line.separator");
 
     /**
      * Shows a detailed error dialog.
@@ -29,10 +32,12 @@ public class JDetailedPane {
      * checked
      */
     public static void showErrorDialog(String title, String message, String details) {
-        final JTextPane textPane = new JTextPane();
-        textPane.setContentType("text/html");
+        final JTextArea textPane = new JTextArea();
 
-        textPane.setText(details);
+        textPane.setForeground(Color.LIGHT_GRAY);
+        textPane.setBackground(Color.BLACK);
+
+        textPane.setText(LINEBREAK + details + LINEBREAK);
         textPane.setEditable(false);
 
         final JScrollPane scrollPane = new JScrollPane(textPane);
@@ -93,10 +98,12 @@ public class JDetailedPane {
      * checked
      */
     public static void showInformationDialog(String title, String message, String details) {
-        final JTextPane textPane = new JTextPane();
-        textPane.setContentType("text/html");
+        final JTextArea textPane = new JTextArea();
 
-        textPane.setText(details);
+        textPane.setForeground(Color.LIGHT_GRAY);
+        textPane.setBackground(Color.BLACK);
+
+        textPane.setText(LINEBREAK + details + LINEBREAK);
         textPane.setEditable(false);
 
         final JScrollPane scrollPane = new JScrollPane(textPane);
@@ -157,10 +164,12 @@ public class JDetailedPane {
      * checked
      */
     public static void showQuestionDialog(String title, String message, String details) {
-        final JTextPane textPane = new JTextPane();
-        textPane.setContentType("text/html");
+        final JTextArea textPane = new JTextArea();
 
-        textPane.setText(details);
+        textPane.setForeground(Color.LIGHT_GRAY);
+        textPane.setBackground(Color.BLACK);
+
+        textPane.setText(LINEBREAK + details + LINEBREAK);
         textPane.setEditable(false);
 
         final JScrollPane scrollPane = new JScrollPane(textPane);
@@ -221,10 +230,12 @@ public class JDetailedPane {
      * checked
      */
     public static void showWarningDialog(String title, String message, String details) {
-        final JTextPane textPane = new JTextPane();
-        textPane.setContentType("text/html");
+        final JTextArea textPane = new JTextArea();
 
-        textPane.setText(details);
+        textPane.setForeground(Color.LIGHT_GRAY);
+        textPane.setBackground(Color.BLACK);
+
+        textPane.setText(LINEBREAK + details + LINEBREAK);
         textPane.setEditable(false);
 
         final JScrollPane scrollPane = new JScrollPane(textPane);
