@@ -23,7 +23,7 @@ Showing a new `JDetailedPane`:
 ### Screenshots
 
 <p align="left">   
-* Error dialog
+Error dialog
 </p>
 
 <p align="center">   
@@ -31,7 +31,7 @@ Showing a new `JDetailedPane`:
 </p>
 
 <p align="left">   
-* Information dialog
+Information dialog
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@ Showing a new `JDetailedPane`:
 </p>
 
 <p align="left">   
-* Question dialog
+Question dialog
 </p>
 
 <p align="center">
@@ -47,7 +47,7 @@ Showing a new `JDetailedPane`:
 </p>
 
 <p align="left">   
-* Warning dialog
+Warning dialog
 </p>
 
 <p align="center">
@@ -56,6 +56,4 @@ Showing a new `JDetailedPane`:
 
 ### Download
 
-<p align="left">
 You can find the latest distribution package here: [release](https://github.com/Todestrieb1/JDetailedPane/blob/master/JDetailedPane/dist/JDetailedPane.jar)
-</p>
