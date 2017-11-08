@@ -16,20 +16,21 @@ Showing a new JDetailedPane:
     JDetailedPane.showErrorDialog("Title goes here", "Message goes here", "Detailed message goes here");
 
     JDetailedPane.showErrorDialog("Title", "This is a test", "This is a detailed message test");
-    
+
 ```
 
-Here are some screenshots:
+* Here are some screenshots:
 
 <img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/error.png" border=0 align="right">
-<br>
+### ...
 <img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/information.png" border=0 align="left">
-<br>
+### ...
 <img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/question.png" border=0 align="right">
-<br>
+### ...
 <img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/warning.png" border=0 align="left">
-<br>
+### ...
 
-Download
---------
+
+### Download
+
 You can find the latest distribution package here: [release](https://github.com/Todestrieb1/JDetailedPane/blob/master/JDetailedPane/dist/JDetailedPane.jar)
