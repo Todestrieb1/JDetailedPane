@@ -72,8 +72,12 @@ public class JDetailedPane {
             public void actionPerformed(ActionEvent e) {
                 if ((Boolean) this.getValue(Action.SELECTED_KEY)) {
                     content.add(scrollPane);
+                    dialog.pack();
+                    dialog.setLocationRelativeTo(null);
                 } else {
                     content.remove(scrollPane);
+                    dialog.pack();
+                    dialog.setLocationRelativeTo(null);
                 }
                 content.invalidate();
                 dialog.invalidate();
@@ -138,8 +142,12 @@ public class JDetailedPane {
             public void actionPerformed(ActionEvent e) {
                 if ((Boolean) this.getValue(Action.SELECTED_KEY)) {
                     content.add(scrollPane);
+                    dialog.pack();
+                    dialog.setLocationRelativeTo(null);
                 } else {
                     content.remove(scrollPane);
+                    dialog.pack();
+                    dialog.setLocationRelativeTo(null);
                 }
                 content.invalidate();
                 dialog.invalidate();
@@ -204,8 +212,12 @@ public class JDetailedPane {
             public void actionPerformed(ActionEvent e) {
                 if ((Boolean) this.getValue(Action.SELECTED_KEY)) {
                     content.add(scrollPane);
+                    dialog.pack();
+                    dialog.setLocationRelativeTo(null);
                 } else {
                     content.remove(scrollPane);
+                    dialog.pack();
+                    dialog.setLocationRelativeTo(null);
                 }
                 content.invalidate();
                 dialog.invalidate();
@@ -270,8 +282,12 @@ public class JDetailedPane {
             public void actionPerformed(ActionEvent e) {
                 if ((Boolean) this.getValue(Action.SELECTED_KEY)) {
                     content.add(scrollPane);
+                    dialog.pack();
+                    dialog.setLocationRelativeTo(null);
                 } else {
                     content.remove(scrollPane);
+                    dialog.pack();
+                    dialog.setLocationRelativeTo(null);
                 }
                 content.invalidate();
                 dialog.invalidate();
