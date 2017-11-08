@@ -1,4 +1,5 @@
-## JDetailedPane
+JDetailedPane
+=====================================
 
 ### Summary
 
@@ -19,17 +20,16 @@ Showing a new JDetailedPane:
 
 ```
 
-* Here are some screenshots:
+### Screenshots:
 
-<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/error.png" border=0 align="right">
-### ...
-<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/information.png" border=0 align="left">
-### ...
-<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/question.png" border=0 align="right">
-### ...
-<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/warning.png" border=0 align="left">
-### ...
-
+* Error dialog
+<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/error.png" width="350" height="189" border=0 align="right">
+* Information dialog
+<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/information.png" width="350" height="189" border=0 align="left">
+* Question dialog
+<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/question.png" width="350" height="189" border=0 align="right">
+* Warning dialog
+<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/warning.png" width="350" height="189" border=0 align="left">
 
 ### Download
 
