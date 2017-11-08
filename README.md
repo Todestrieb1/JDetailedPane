@@ -22,12 +22,13 @@ Showing a new JDetailedPane:
 Here are some screenshots:
 
 <img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/error.png" border=0 align="right">
-
+<br>
 <img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/information.png" border=0 align="left">
-
+<br>
 <img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/question.png" border=0 align="right">
-
+<br>
 <img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/warning.png" border=0 align="left">
+<br>
 
 Download
 --------
