@@ -22,14 +22,37 @@ Showing a new `JDetailedPane`:
 
 ### Screenshots:
 
-* Error dialog
-<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/error.png" width="350" height="189" border=0 align="right">
-* Information dialog
-<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/information.png" width="350" height="189" border=0 align="right">
-* Question dialog
-<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/question.png" width="350" height="189" border=0 align="right">
-* Warning dialog
-<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/warning.png" width="350" height="189" border=0 align="right">
+<p align="left">   
+Error dialog:
+</p>
+
+<p align="center">   
+<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/error.png" width="350" height="189" border=0>
+</p>
+
+<p align="left">   
+Information dialog
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/information.png" width="350" height="189" border=0>
+</p>
+
+<p align="left">   
+Question dialog
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/question.png" width="350" height="189" border=0>
+</p>
+
+<p align="left">   
+Warning dialog
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Todestrieb1/JDetailedPane/master/images/warning.png" width="350" height="189" border=0>
+</p>
 
 ### Download
 
